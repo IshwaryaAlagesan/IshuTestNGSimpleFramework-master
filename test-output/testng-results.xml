@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="33" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="154950" started-at="2019-10-27T20:40:43 GMT" finished-at="2019-10-27T20:43:18 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="154950" started-at="2019-10-27T20:40:43 GMT" finished-at="2019-10-27T20:43:18 GMT">
+      <class name="Registration.RegistrationFirstPage">
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:Registration.RegistrationFirstPage@520a3426]" name="Launchbrowser" is-config="true" duration-ms="11664" started-at="2019-10-27T20:40:43 GMT" finished-at="2019-10-27T20:40:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="FirstPage_VerifyTitle()[pri:1, instance:Registration.RegistrationFirstPage@520a3426]" name="FirstPage_VerifyTitle" duration-ms="20" started-at="2019-10-27T20:40:54 GMT" finished-at="2019-10-27T20:40:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstPage_VerifyTitle -->
+        <test-method status="PASS" signature="verifyMobileNumber_AlreadyUsed()[pri:2, instance:Registration.RegistrationFirstPage@520a3426]" name="verifyMobileNumber_AlreadyUsed" duration-ms="1223" started-at="2019-10-27T20:40:54 GMT" finished-at="2019-10-27T20:40:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileNumber_AlreadyUsed -->
+        <test-method status="PASS" signature="verifyMobileNumber_InValidNumber()[pri:2, instance:Registration.RegistrationFirstPage@520a3426]" name="verifyMobileNumber_InValidNumber" duration-ms="1143" started-at="2019-10-27T20:40:56 GMT" finished-at="2019-10-27T20:40:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileNumber_InValidNumber -->
+        <test-method status="PASS" signature="verifyMobileNumber_ValidNumber()[pri:3, instance:Registration.RegistrationFirstPage@520a3426]" name="verifyMobileNumber_ValidNumber" duration-ms="1171" started-at="2019-10-27T20:40:57 GMT" finished-at="2019-10-27T20:40:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileNumber_ValidNumber -->
+        <test-method status="PASS" signature="verifyEmail_InValid()[pri:4, instance:Registration.RegistrationFirstPage@520a3426]" name="verifyEmail_InValid" duration-ms="1179" started-at="2019-10-27T20:40:58 GMT" finished-at="2019-10-27T20:40:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail_InValid -->
+        <test-method status="PASS" signature="verifyEmail_Valid()[pri:5, instance:Registration.RegistrationFirstPage@520a3426]" name="verifyEmail_Valid" duration-ms="1246" started-at="2019-10-27T20:40:59 GMT" finished-at="2019-10-27T20:41:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail_Valid -->
+        <test-method status="PASS" signature="verifypasswordInValid()[pri:5, instance:Registration.RegistrationFirstPage@520a3426]" name="verifypasswordInValid" duration-ms="4171" started-at="2019-10-27T20:41:00 GMT" finished-at="2019-10-27T20:41:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypasswordInValid -->
+        <test-method status="PASS" signature="verifypasswordValid()[pri:5, instance:Registration.RegistrationFirstPage@520a3426]" name="verifypasswordValid" duration-ms="2154" started-at="2019-10-27T20:41:05 GMT" finished-at="2019-10-27T20:41:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypasswordValid -->
+        <test-method status="PASS" signature="TermsandCondition()[pri:6, instance:Registration.RegistrationFirstPage@520a3426]" name="TermsandCondition" duration-ms="81078" started-at="2019-10-27T20:41:07 GMT" finished-at="2019-10-27T20:42:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsandCondition -->
+        <test-method status="PASS" signature="clicknextButton()[pri:7, instance:Registration.RegistrationFirstPage@520a3426]" name="clicknextButton" duration-ms="3758" started-at="2019-10-27T20:42:28 GMT" finished-at="2019-10-27T20:42:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicknextButton -->
+        <test-method status="PASS" signature="clickfinishButton()[pri:8, instance:Registration.RegistrationFirstPage@520a3426]" name="clickfinishButton" duration-ms="1973" started-at="2019-10-27T20:42:32 GMT" finished-at="2019-10-27T20:42:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickfinishButton -->
+        <test-method status="PASS" signature="clickupdatenameBtn()[pri:9, instance:Registration.RegistrationFirstPage@520a3426]" name="clickupdatenameBtn" duration-ms="1796" started-at="2019-10-27T20:42:34 GMT" finished-at="2019-10-27T20:42:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickupdatenameBtn -->
+        <test-method status="PASS" signature="ContactPage_SelectTitle()[pri:10, instance:Registration.RegistrationFirstPage@520a3426]" name="ContactPage_SelectTitle" duration-ms="2110" started-at="2019-10-27T20:42:35 GMT" finished-at="2019-10-27T20:42:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactPage_SelectTitle -->
+        <test-method status="PASS" signature="ContactPage_EnterFirstName()[pri:11, instance:Registration.RegistrationFirstPage@520a3426]" name="ContactPage_EnterFirstName" duration-ms="1095" started-at="2019-10-27T20:42:38 GMT" finished-at="2019-10-27T20:42:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactPage_EnterFirstName -->
+        <test-method status="PASS" signature="contactPage_EnterLastName()[pri:12, instance:Registration.RegistrationFirstPage@520a3426]" name="contactPage_EnterLastName" duration-ms="1087" started-at="2019-10-27T20:42:39 GMT" finished-at="2019-10-27T20:42:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage_EnterLastName -->
+        <test-method status="PASS" signature="contactPage_confirmMail()[pri:13, instance:Registration.RegistrationFirstPage@520a3426]" name="contactPage_confirmMail" duration-ms="1133" started-at="2019-10-27T20:42:40 GMT" finished-at="2019-10-27T20:42:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage_confirmMail -->
+        <test-method status="PASS" signature="contactPagc_Savebutton()[pri:14, instance:Registration.RegistrationFirstPage@520a3426]" name="contactPagc_Savebutton" duration-ms="3580" started-at="2019-10-27T20:42:41 GMT" finished-at="2019-10-27T20:42:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPagc_Savebutton -->
+        <test-method status="PASS" signature="contactPage_UpdateYourPaymentlink()[pri:14, instance:Registration.RegistrationFirstPage@520a3426]" name="contactPage_UpdateYourPaymentlink" duration-ms="1993" started-at="2019-10-27T20:42:44 GMT" finished-at="2019-10-27T20:42:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage_UpdateYourPaymentlink -->
+        <test-method status="PASS" signature="PaymentPage_clickNewaddcard()[pri:15, instance:Registration.RegistrationFirstPage@520a3426]" name="PaymentPage_clickNewaddcard" duration-ms="1120" started-at="2019-10-27T20:42:46 GMT" finished-at="2019-10-27T20:42:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage_clickNewaddcard -->
+        <test-method status="PASS" signature="PaymentPage_EntercardDetails()[pri:16, instance:Registration.RegistrationFirstPage@520a3426]" name="PaymentPage_EntercardDetails" duration-ms="1134" started-at="2019-10-27T20:42:48 GMT" finished-at="2019-10-27T20:42:49 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage_EntercardDetails -->
+        <test-method status="PASS" signature="PaymentPage_EnterstartDate()[pri:17, instance:Registration.RegistrationFirstPage@520a3426]" name="PaymentPage_EnterstartDate" duration-ms="1071" started-at="2019-10-27T20:42:49 GMT" finished-at="2019-10-27T20:42:50 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage_EnterstartDate -->
+        <test-method status="PASS" signature="PaymentPage_EnterExpireDate()[pri:18, instance:Registration.RegistrationFirstPage@520a3426]" name="PaymentPage_EnterExpireDate" duration-ms="1075" started-at="2019-10-27T20:42:50 GMT" finished-at="2019-10-27T20:42:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage_EnterExpireDate -->
+        <test-method status="PASS" signature="PaymentPage_clickAddCard()[pri:19, instance:Registration.RegistrationFirstPage@520a3426]" name="PaymentPage_clickAddCard" duration-ms="1072" started-at="2019-10-27T20:42:51 GMT" finished-at="2019-10-27T20:42:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage_clickAddCard -->
+        <test-method status="PASS" signature="PaymentPage_MyAccount()[pri:20, instance:Registration.RegistrationFirstPage@520a3426]" name="PaymentPage_MyAccount" duration-ms="3324" started-at="2019-10-27T20:42:52 GMT" finished-at="2019-10-27T20:42:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage_MyAccount -->
+        <test-method status="PASS" signature="FirstPage_updateVechical()[pri:21, instance:Registration.RegistrationFirstPage@520a3426]" name="FirstPage_updateVechical" duration-ms="1756" started-at="2019-10-27T20:42:55 GMT" finished-at="2019-10-27T20:42:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstPage_updateVechical -->
+        <test-method status="PASS" signature="VehiclePage_addVechical()[pri:22, instance:Registration.RegistrationFirstPage@520a3426]" name="VehiclePage_addVechical" duration-ms="1810" started-at="2019-10-27T20:42:57 GMT" finished-at="2019-10-27T20:42:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehiclePage_addVechical -->
+        <test-method status="PASS" signature="VehiclePage_enterNumberPlate()[pri:23, instance:Registration.RegistrationFirstPage@520a3426]" name="VehiclePage_enterNumberPlate" duration-ms="1101" started-at="2019-10-27T20:42:59 GMT" finished-at="2019-10-27T20:43:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehiclePage_enterNumberPlate -->
+        <test-method status="PASS" signature="VehiclePage_selectcolor()[pri:23, instance:Registration.RegistrationFirstPage@520a3426]" name="VehiclePage_selectcolor" duration-ms="1152" started-at="2019-10-27T20:43:00 GMT" finished-at="2019-10-27T20:43:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehiclePage_selectcolor -->
+        <test-method status="PASS" signature="VehiclePage_selectCarName()[pri:24, instance:Registration.RegistrationFirstPage@520a3426]" name="VehiclePage_selectCarName" duration-ms="1060" started-at="2019-10-27T20:43:01 GMT" finished-at="2019-10-27T20:43:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehiclePage_selectCarName -->
+        <test-method status="PASS" signature="VeciclePage_selectCarName()[pri:25, instance:Registration.RegistrationFirstPage@520a3426]" name="VeciclePage_selectCarName" duration-ms="1095" started-at="2019-10-27T20:43:02 GMT" finished-at="2019-10-27T20:43:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeciclePage_selectCarName -->
+        <test-method status="PASS" signature="VeciclePage_onwershipType()[pri:26, instance:Registration.RegistrationFirstPage@520a3426]" name="VeciclePage_onwershipType" duration-ms="1097" started-at="2019-10-27T20:43:03 GMT" finished-at="2019-10-27T20:43:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeciclePage_onwershipType -->
+        <test-method status="PASS" signature="Vehicle_saveButton()[pri:26, instance:Registration.RegistrationFirstPage@520a3426]" name="Vehicle_saveButton" duration-ms="5825" started-at="2019-10-27T20:43:04 GMT" finished-at="2019-10-27T20:43:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vehicle_saveButton -->
+        <test-method status="PASS" signature="VeciclePage_myaccount()[pri:27, instance:Registration.RegistrationFirstPage@520a3426]" name="VeciclePage_myaccount" duration-ms="2867" started-at="2019-10-27T20:43:10 GMT" finished-at="2019-10-27T20:43:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeciclePage_myaccount -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Registration.RegistrationFirstPage@520a3426]" name="closebrowser" is-config="true" duration-ms="4691" started-at="2019-10-27T20:43:13 GMT" finished-at="2019-10-27T20:43:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Registration.RegistrationFirstPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

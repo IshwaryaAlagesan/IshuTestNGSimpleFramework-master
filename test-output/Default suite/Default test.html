@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 27 20:40:43 GMT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>154 seconds (154950 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.ContactPage_EnterFirstName()'><b>ContactPage_EnterFirstName</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.ContactPage_SelectTitle()'><b>ContactPage_SelectTitle</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>2</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.FirstPage_VerifyTitle()'><b>FirstPage_VerifyTitle</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>0</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.FirstPage_updateVechical()'><b>FirstPage_updateVechical</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.PaymentPage_EnterExpireDate()'><b>PaymentPage_EnterExpireDate</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.PaymentPage_EntercardDetails()'><b>PaymentPage_EntercardDetails</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.PaymentPage_EnterstartDate()'><b>PaymentPage_EnterstartDate</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.PaymentPage_MyAccount()'><b>PaymentPage_MyAccount</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>3</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.PaymentPage_clickAddCard()'><b>PaymentPage_clickAddCard</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.PaymentPage_clickNewaddcard()'><b>PaymentPage_clickNewaddcard</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.TermsandCondition()'><b>TermsandCondition</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>81</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VeciclePage_myaccount()'><b>VeciclePage_myaccount</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>2</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VeciclePage_onwershipType()'><b>VeciclePage_onwershipType</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VeciclePage_selectCarName()'><b>VeciclePage_selectCarName</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VehiclePage_addVechical()'><b>VehiclePage_addVechical</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VehiclePage_enterNumberPlate()'><b>VehiclePage_enterNumberPlate</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VehiclePage_selectCarName()'><b>VehiclePage_selectCarName</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.VehiclePage_selectcolor()'><b>VehiclePage_selectcolor</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.Vehicle_saveButton()'><b>Vehicle_saveButton</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>5</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.clickfinishButton()'><b>clickfinishButton</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.clicknextButton()'><b>clicknextButton</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>3</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.clickupdatenameBtn()'><b>clickupdatenameBtn</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.contactPagc_Savebutton()'><b>contactPagc_Savebutton</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>3</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.contactPage_EnterLastName()'><b>contactPage_EnterLastName</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.contactPage_UpdateYourPaymentlink()'><b>contactPage_UpdateYourPaymentlink</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.contactPage_confirmMail()'><b>contactPage_confirmMail</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifyEmail_InValid()'><b>verifyEmail_InValid</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifyEmail_Valid()'><b>verifyEmail_Valid</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifyMobileNumber_AlreadyUsed()'><b>verifyMobileNumber_AlreadyUsed</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifyMobileNumber_InValidNumber()'><b>verifyMobileNumber_InValidNumber</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifyMobileNumber_ValidNumber()'><b>verifyMobileNumber_ValidNumber</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>1</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifypasswordInValid()'><b>verifypasswordInValid</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>4</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+<tr>
+<td title='Registration.RegistrationFirstPage.verifypasswordValid()'><b>verifypasswordValid</b><br>Test class: Registration.RegistrationFirstPage</td>
+<td></td>
+<td>2</td>
+<td>Registration.RegistrationFirstPage@520a3426</td></tr>
+</table><p>
+</body>
+</html>
